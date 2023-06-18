@@ -1,0 +1,35 @@
+{
+  "include": ["src/**/*.ts","src/**/*.json"],
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "CommonJS",
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+
+    "exactOptionalPropertyTypes": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    
+  }
+}

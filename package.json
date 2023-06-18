@@ -1,0 +1,24 @@
+{
+  "name": "node-app-template",
+  "version": "1.0.0",
+  "description": "\tmy quick + simple + cheap preferred env setup at the moment for node apps in 2023",
+  "main": "dist/index.js",
+  "repository": "git@github.com:cas-c/node-app-template.git",
+  "author": "cassie <hi@cassie.fish>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.43.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "next"
+  },
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.ts dotenv_config_path=.env.development",
+    "build": "tsc --build"
+  }
+}
