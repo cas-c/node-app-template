@@ -19,6 +19,7 @@
   },
   "scripts": {
     "dev": "nodemon -r dotenv/config src/index.ts dotenv_config_path=.env.development",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   }
 }
